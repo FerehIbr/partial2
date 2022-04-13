@@ -1,5 +1,18 @@
 ﻿@model ICollection<Product>
 
+<div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
+                                data-slick-setting='{
+                            "autoplay": true,
+                            "autoplaySpeed": 8000,
+                            "slidesToShow": 5,
+                            "rows":1,
+                            "dots":true
+                        }' data-slick-responsive='[
+                            {"breakpoint":1200, "settings": {"slidesToShow": 3} },
+                            {"breakpoint":768, "settings": {"slidesToShow": 2} },
+                            {"breakpoint":480, "settings": {"slidesToShow": 1} },
+                            {"breakpoint":320, "settings": {"slidesToShow": 1} }
+                        ]'>
 @foreach (Product product in Model)
 {
     <div class="single-slide">
@@ -54,3 +67,4 @@
         </div>
     </div>
 }
+</div>

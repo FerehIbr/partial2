@@ -26,8 +26,22 @@ using Pustok.ViewModels.Home;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\user\Desktop\Pustok\Pustok\Views\_ViewImports.cshtml"
+using Pustok.ViewModels.Basket;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\user\Desktop\Pustok\Pustok\Views\_ViewImports.cshtml"
+using Pustok.Services;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2040fa6c273e90ff74ba753c1c385b2db882f32c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c51811d3ad1288e8ebb226db6ea5ae46cb2e4207", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

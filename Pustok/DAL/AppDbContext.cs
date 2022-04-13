@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Pustok.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Pustok.DAL
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -20,5 +21,6 @@ namespace Pustok.DAL
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<ProductImage> ProductImages { get; set; }
+        public virtual DbSet<Setting> Settings { get; set; }
     }
 }
